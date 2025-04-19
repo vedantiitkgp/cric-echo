@@ -1,0 +1,8 @@
+query GetBattingStats {
+  batting_stats(order_by: {strike_rate: desc}) {
+    player
+    balls_faced
+    runs_scored
+    strike_rate
+  }
+}

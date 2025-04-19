@@ -1,0 +1,9 @@
+query GetBowlingStats {
+  bowling_stats(order_by: {economy_rate: asc}) {
+    player
+    balls_bowled
+    runs_conceded
+    wickets_taken
+    economy_rate
+  }
+}

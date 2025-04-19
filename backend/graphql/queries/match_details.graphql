@@ -1,0 +1,30 @@
+query MatchDetails($matchId: uuid!) {
+  matches_by_pk(match_id: $matchId) {
+    match_id
+    match_date
+    city
+    venue
+    event_name
+    match_type
+    season
+    teams
+    toss_winner
+    toss_decision
+    winner
+    player_of_match
+    created_at
+    innings(order_by: {over_number: asc}) {
+        innings_id
+        team
+        deliveries(order_by: [{over_number: asc}, {ball_number: asc}]) {
+          over_number
+          ball_number
+          batter
+          bowler
+          runs_total
+          is_wicket
+        }
+      }
+    }  
+  }
+}

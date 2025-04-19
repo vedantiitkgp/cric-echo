@@ -1,0 +1,1 @@
+CREATE INDEX IF NOT EXISTS idx_innings_match ON innings(match_id);

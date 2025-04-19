@@ -1,0 +1,14 @@
+query GetMatchDeliveries($matchId: uuid!) {
+  deliveries(where: {match_id: {_eq: $matchId}}, order_by: {over_number: asc}) {
+    delivery_id
+    over_number
+    ball_number
+    batter
+    bowler
+    runs_batter
+    runs_extras
+    runs_total
+    is_wicket
+    created_at
+  }
+}

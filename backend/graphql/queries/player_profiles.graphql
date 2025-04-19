@@ -1,0 +1,8 @@
+query GetPlayers {
+  players {
+    player_id
+    name
+    uuid
+    teams
+  }
+}
