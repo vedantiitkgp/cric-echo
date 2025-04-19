@@ -3,7 +3,7 @@
 Imagine a dynamic IPL platform that transforms live cricket data into captivating insights—where every ball tells a story, every match has a historical twin, and AI-generated commentary keeps fans on the edge of their seats!
 
 🔥 The Vision
-A Python-powered (Flask/Django) analytics hub that:
+A Python-powered (Flask) analytics hub that:
 
 📊 Ingests live IPL match data (via Google API/CricAPI) in real-time
 
