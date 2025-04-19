@@ -16,11 +16,11 @@ A Python-powered (Flask/Django) analytics hub that:
 🔄 Updates in real-time with minimal latency, keeping fans hooked
 
 ✨ Key Features
-✔ 🔍 Live Similarity Engine – "This match mirrors RCB vs. MI 2023!"
-✔ 📈 Ball-by-Ball AI Narration – "Kohli takes on Rashid just like in the 2019 thriller!"
-✔ 🖼️ Player Visuals – Instantly display batter/bowler images & stats
-✔ ⚡ Real-Time Sync – Lightning-fast updates without overloading servers
-✔ 📱 Fan-Friendly UI – Clean, intuitive, and packed with insights
+- 🔍 Live Similarity Engine – "This match mirrors RCB vs. MI 2023!"
+- 📈 Ball-by-Ball AI Narration – "Kohli takes on Rashid just like in the 2019 thriller!"
+- 🖼️ Player Visuals – Instantly display batter/bowler images & stats
+- ⚡ Real-Time Sync – Lightning-fast updates without overloading servers
+- 📱 Fan-Friendly UI – Clean, intuitive, and packed with insights
 
 🛠️ Tech Stack
 Backend: Python (Flask/Django)
@@ -80,8 +80,8 @@ A real-time IPL match analysis platform that:
 
 ### Prerequisites
 - Python 3.9+
-- PostgreSQL 12+
-- Docker (for Hasura)
+- PostgreSQL 12+ 
+- Graphql Engine - Hasura
 
 ### Setup
 
